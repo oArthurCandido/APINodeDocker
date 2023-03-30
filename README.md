@@ -12,3 +12,11 @@ A mensagem `$ node index.js
 MicroAPI app listening at http://localhost:3000` deve ser retornada.
 
 Abra a aplicação do Unity agora.
+
+Se preferir Docker, siga:
+
+`docker pull arthurcandido/microapi:microapi`
+
+`docker run -p 3000:3000 arthurcandido/microapi:microapi`
+
+Agora basta seguir para a aplicação Unity.
