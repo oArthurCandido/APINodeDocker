@@ -6,7 +6,7 @@ const port = 3000;
 let user;
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`MicroAPI app listening at http://localhost:${port}`);
 });
 
 app.get('/', (req, res) => {
